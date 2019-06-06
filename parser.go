@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"gitlab.com/lyokum/attr"
+	"github.com/lyokum/attr"
 	"golang.org/x/net/html"
 	"log"
 	"os/exec"

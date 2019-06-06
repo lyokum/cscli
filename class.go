@@ -3,7 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	"gitlab.com/lyokum/update"
+	"github.com/lyokum/update"
 	"os/exec"
 	"regexp"
 	"strings"
