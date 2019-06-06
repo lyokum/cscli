@@ -34,7 +34,11 @@ To use the update functionality, you will need to have a notification server run
 pacman -S notification-daemon
 pacman -S dunst
 
+go get github.com/lyokum/notify-server
+go install github.com/lyokum/notify-server
+
 dunst &
+notify-server &
 ```
 
 ## Current plans for the future
